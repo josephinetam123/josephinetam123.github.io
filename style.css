@@ -2,11 +2,14 @@
     margin: 0;
     padding: 0;
     list-style-type: none;
-    position: relative;
-    left: 255px; 
-    display: inline;
     font-family:  "Georgia","Vertrina", "Skolar Latin Regular"; 
     font-size: 18px;      
+}
+
+#nav_elements {
+    float:none;
+    display:table;
+    margin:0 auto;
 }
 
 #project-wrap li a {
@@ -19,12 +22,16 @@
     text-decoration: none;
 }
 
-span li a{ 
+#project-wrap .navbar-default {
+    background-color:#FFFFFF;
 
-    font-family:  "Georgia","Vertrina", "Skolar Latin Regular"; 
-    font-size: 18px;   
-    float: left;
+}
 
+#project-wrap .navbar-brand {
+    font-family:"Georgia","Vertrina", "Skolar Latin Regular";
+    margin-left:10px; 
+    font-size: 20px;    
+    color: #008A8A;
 }
 
 
@@ -91,8 +98,10 @@ background-size: cover;
 }
 
 
+
 section p .strong{color:white;width:500px; left:100px;}
 section p{color:white;width:500px;}
-section article{position:absolute;top:240px;left:40px;width:300px;z-index:4;}
+section article{position:absolute;top:120px;left:40px;width:540px;z-index:4; background: rgba(54, 25, 25, .5);padding:20px; }
 
-.parallax-item{position:absolute;z-index:5;top:40px;left:400px;}
+
+.parallax-item{position:absolute;z-index:5;top: 40px;left:400px;}
