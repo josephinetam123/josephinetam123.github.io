@@ -30,9 +30,12 @@
 #project-wrap .navbar-brand {
     font-family:"Georgia","Vertrina", "Skolar Latin Regular";
     margin-left:10px; 
-    font-size: 20px;    
+    font-size: 18px;    
     color: #008A8A;
+
 }
+
+
 
 
 /* Reset */
@@ -74,7 +77,8 @@ section:nth-of-type(1){
 section:nth-of-type(2){background:black;height:1600px;}
 
 #photography>div:nth-of-type(1) {
-    background: url(img/nike-bg.jpeg) 50% 0 no-repeat fixed;
+    background: url(img/josephine-hands.jpg) 50% 0 no-repeat fixed;
+    background-size: cover;
     margin: 0;
     height: 1600px;
     position:absolute;
@@ -83,13 +87,15 @@ section:nth-of-type(2){background:black;height:1600px;}
 }
 
 #photography>div:nth-of-type(2) {
-    background: url(img/nike.png) 50% 0 no-repeat fixed;
+    /*background: url(img/josephine.png) 50% 0 no-repeat fixed;*/
     margin: 0;
     height: 1600px;
     position:absolute;
     top:0px;left:100px;
     width:100%;
 }
+
+
 
 #about>div:nth-of-type(1){
 height: 100%;
